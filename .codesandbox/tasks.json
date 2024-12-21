@@ -1,0 +1,98 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "pnpm install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "pnpm dev",
+      "runAtStart": true
+    },
+    "changelog": {
+      "name": "changelog",
+      "command": "pnpm changelog",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "pnpm clean",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "pnpm prepare",
+      "runAtStart": false
+    },
+    "extension:dev": {
+      "name": "extension:dev",
+      "command": "pnpm extension:dev",
+      "runAtStart": false
+    },
+    "extension:build": {
+      "name": "extension:build",
+      "command": "pnpm extension:build",
+      "runAtStart": false
+    },
+    "template:dev": {
+      "name": "template:dev",
+      "command": "pnpm template:dev",
+      "runAtStart": false
+    },
+    "template:build": {
+      "name": "template:build",
+      "command": "pnpm template:build",
+      "runAtStart": false
+    },
+    "cli:build-release": {
+      "name": "cli:build-release",
+      "command": "pnpm cli:build-release",
+      "runAtStart": false
+    },
+    "docs": {
+      "name": "docs",
+      "command": "pnpm docs",
+      "runAtStart": false
+    },
+    "docs:build": {
+      "name": "docs:build",
+      "command": "pnpm docs:build",
+      "runAtStart": false
+    },
+    "demo": {
+      "name": "demo",
+      "command": "pnpm demo",
+      "runAtStart": false
+    },
+    "demo:build": {
+      "name": "demo:build",
+      "command": "pnpm demo:build",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "pnpm test",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "pnpm test:e2e",
+      "runAtStart": false
+    }
+  }
+}
