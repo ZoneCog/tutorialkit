@@ -29,7 +29,7 @@
     "@types/react-dom": "^18.3.0",
     "@unocss/reset": "^0.59.4",
     "@unocss/transformer-directives": "^0.62.0",
-    "astro": "^4.15.0",
+    "astro": "^4.16.18",
     "fast-glob": "^3.3.2",
     "playwright": "^1.46.0",
     "react": "^18.3.1",
