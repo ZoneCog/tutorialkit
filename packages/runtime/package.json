@@ -36,12 +36,12 @@
     "@tutorialkit/types": "workspace:*",
     "@webcontainer/api": "1.5.1",
     "nanostores": "^0.10.3",
-    "picomatch": "^4.0.2"
+    "picomatch": "^4.0.4"
   },
   "devDependencies": {
     "@types/picomatch": "^3.0.1",
     "typescript": "^5.4.5",
-    "vite": "^5.3.1",
+    "vite": "^5.4.21",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^2.1.1"
   }
